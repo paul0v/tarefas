@@ -2,10 +2,10 @@
   "name": "tarefas-api",
   "version": "1.0.0",
   "description": "API simples de gerenciador de tarefas em Node.js + Express + SQLite",
-  "main": "server.js",
+  "main": "tarefas_backend/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node tarefas_backend/server.js",
+    "dev": "nodemon tarefas_backend/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
