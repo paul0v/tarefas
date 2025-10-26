@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Minhas Tarefas</h1>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Nova Tarefa</h5>
+        <div class="form-group">
+          <input type="text" id="titulo" class="form-control" placeholder="Título">
+        </div>
+        <div class="form-group">
+          <input type="text" id="descricao" class="form-control" placeholder="Descrição">
+        </div>
+        <button class="btn btn-primary" onclick="criarTarefa()">Adicionar</button>
+      </div>
+    </div>
+    <div id="lista"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
