@@ -1,0 +1,68 @@
+📝 1-Resumo
+O projeto implementa um gerenciador de tarefas completo com frontend e backend, permitindo criar, listar, atualizar status e excluir tarefas. Utiliza Node.js/Express no backend com SQLite como banco de dados, e HTML/JavaScript no frontend com Bootstrap para estilização.
+
+✅ 2-O que foi feito:
+
+⚙️ 1. Funcionalidade (2/2 pts)
+ O código funciona conforme o esperado
+ Todas as funcionalidades principais foram implementadas
+ Não há erros ou travamentos
+Comentário: Implementa todas as operações CRUD básicas (Create, Read, Update, Delete) para tarefas.
+
+🧩 2. Nomenclatura e Legibilidade (2/2 pts)
+ Variáveis e funções com nomes claros e descritivos
+ Código legível e bem indentado
+ Comentários úteis e padronização visual
+Comentário: Código bem organizado com nomes significativos em português (tarefas, titulo, descricao, etc).
+
+🧱 3. Separação de Responsabilidades (2/2 pts)
+ Código modularizado e bem organizado
+ Segue padrão de arquitetura (camadas, MVC, etc.)
+ Evita duplicação de código
+Comentário: Boa separação entre controller, database e server no backend. Frontend separado em HTML e JS.
+
+🧮 4. Validações (1/1 pt)
+ Entradas e campos validados corretamente
+ Regras de negócio bem aplicadas
+Comentário: Validação do título obrigatório implementada no backend.
+
+🧯 5. Tratamento de Erros e Exceções (1/1 pt)
+ Uso adequado de try/catch
+ Mensagens de erro claras e seguras
+Comentário: Implementa try/catch em todas as rotas com mensagens de erro apropriadas.
+
+🎨 6. Usabilidade e Interface (1/1 pt)
+ Interface intuitiva e responsiva
+ Feedback visual claro ao usuário
+Comentário: Interface limpa usando Bootstrap, com feedback visual para tarefas concluídas.
+
+🔗 7. Integração (0.5/1 pt)
+ Comunicação consistente entre front e back
+ Endpoints claros e bem documentados
+Comentário: Integração funcional, mas documentação dos endpoints poderia ser mais detalhada.
+
+🧠 8. Documentação e Commits (0.5/1 pt)
+ README explicativo e atualizado
+ Commits descritivos e organizados
+Comentário: README presente com instruções básicas, mas sem histórico de commits disponível para análise.
+
+Pontuação Total: 9/10 pts
+
+🧪 Como Testar
+
+Clone o repositório
+Execute npm install para instalar dependências
+Inicie o backend com npm start (ou npm run dev para desenvolvimento)
+Abra o arquivo index.html do frontend em um navegador
+Teste as seguintes funcionalidades:
+Criar uma nova tarefa (título obrigatório)
+Visualizar a lista de tarefas
+Marcar/desmarcar tarefa como concluída
+Excluir uma tarefa
+Verificar se as validações funcionam (ex: tentar criar tarefa sem título)
+📌 Problemas encontrados:
+
+Documentação dos endpoints poderia ser mais detalhada
+Falta tratamento para possíveis erros de conexão com o banco de dados
+Frontend poderia ter melhor feedback visual para erros de API
+Falta paginação para lista de tarefas (pode ser um problema com muitas tarefas)
